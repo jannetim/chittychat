@@ -1,0 +1,37 @@
+html,
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    padding-top: 40px;
+
+}
+ul {
+  list-style-type: none;
+}
+h2 {
+  text-align:center;
+}
+.container {
+  display: grid;
+  grid-gap: 15px;
+  border-radius: 3px;
+  background-color: #21A7B3;
+}
+
+.container > div {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.chatroom {
+  width:45%;
+}
+
+.controls {
+  grid-column: 1;
+}
+
+.messages {
+  grid-column: 2 / span 2;
+}
