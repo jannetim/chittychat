@@ -24,3 +24,39 @@
 2017-Dec-18 19:10:01 +0200 LM4-KEHA11.local INFO [chittychat.handler] - 
 -=[ chittychat started successfully using the development profile ]=-
 2017-Dec-18 19:10:01 +0200 LM4-KEHA11.local INFO [chittychat.core] - server started on port: 3000
+2017-Dec-18 22:58:40 +0200 LM4-KEHA11.local INFO [chittychat.handler] - chittychat is shutting down...
+2017-Dec-18 22:58:40 +0200 LM4-KEHA11.local INFO [chittychat.handler] - shutdown complete!
+2017-Dec-18 22:59:19 +0200 LM4-KEHA11.local INFO [chittychat.handler] - 
+-=[ chittychat started successfully using the development profile ]=-
+2017-Dec-18 22:59:19 +0200 LM4-KEHA11.local INFO [chittychat.core] - server started on port: 3000
+2017-Dec-18 23:00:59 +0200 LM4-KEHA11.local INFO [chittychat.handler] - chittychat is shutting down...
+2017-Dec-18 23:00:59 +0200 LM4-KEHA11.local INFO [chittychat.handler] - shutdown complete!
+2017-Dec-18 23:01:10 +0200 LM4-KEHA11.local INFO [chittychat.handler] - 
+-=[ chittychat started successfully using the development profile ]=-
+2017-Dec-18 23:01:10 +0200 LM4-KEHA11.local INFO [chittychat.core] - server started on port: 3000
+2017-Dec-18 23:02:26 +0200 LM4-KEHA11.local INFO [chittychat.handler] - chittychat is shutting down...
+2017-Dec-18 23:02:26 +0200 LM4-KEHA11.local INFO [chittychat.handler] - shutdown complete!
+2017-Dec-18 23:03:33 +0200 LM4-KEHA11.local INFO [chittychat.handler] - 
+-=[ chittychat started successfully using the development profile ]=-
+2017-Dec-18 23:03:33 +0200 LM4-KEHA11.local INFO [chittychat.core] - server started on port: 3000
+2017-Dec-18 23:07:56 +0200 LM4-KEHA11.local INFO [chittychat.handler] - chittychat is shutting down...
+2017-Dec-18 23:07:56 +0200 LM4-KEHA11.local INFO [chittychat.handler] - shutdown complete!
+2017-Dec-18 23:08:07 +0200 LM4-KEHA11.local INFO [chittychat.handler] - 
+-=[ chittychat started successfully using the development profile ]=-
+2017-Dec-18 23:08:07 +0200 LM4-KEHA11.local INFO [chittychat.core] - server started on port: 3000
+2017-Dec-18 23:09:43 +0200 LM4-KEHA11.local INFO [chittychat.handler] - chittychat is shutting down...
+2017-Dec-18 23:09:43 +0200 LM4-KEHA11.local INFO [chittychat.handler] - shutdown complete!
+2017-Dec-18 23:21:33 +0200 LM4-KEHA11.local INFO [chittychat.handler] - 
+-=[ chittychat started successfully using the development profile ]=-
+2017-Dec-18 23:21:33 +0200 LM4-KEHA11.local INFO [chittychat.core] - server started on port: 3000
+2017-Dec-18 23:22:08 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel open
+2017-Dec-18 23:22:24 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel open
+2017-Dec-18 23:22:56 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room",null,"~:message","Chittychatter: aa aa aa"]
+2017-Dec-18 23:23:03 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room",null,"~:message","Chittychatter: aa aa aa aafsdfs "]
+2017-Dec-18 23:23:07 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room",null,"~:message","Chittychatter: sfsdfsdfsdf"]
+2017-Dec-18 23:23:18 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room",null,"~:message","Chittychatter: fsdfsdfsdf"]
+2017-Dec-18 23:23:22 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room","kanava2","~:message","Chittychatter: fsfsdfsdf"]
+2017-Dec-18 23:23:27 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room","kanava2","~:message","Chittychatter: dfsdfsdf"]
+2017-Dec-18 23:23:30 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room","kanava2","~:message","Chittychatter: sdfsdf"]
+2017-Dec-18 23:23:47 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel closed: :going-away
+2017-Dec-18 23:23:49 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel closed: :going-away

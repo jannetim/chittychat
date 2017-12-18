@@ -35,3 +35,8 @@ h2 {
 .messages {
   grid-column: 2 / span 2;
 }
+
+.message-scroll {
+  height: 237px;
+  overflow: scroll;
+}

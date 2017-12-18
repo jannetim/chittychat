@@ -30,7 +30,4 @@
     (throw (js/Error. "Websocket connection failed!"))))
 
 (defn room-filter! [room]
-  (println room)
-  (println @chatroom)
-  (reset! chatroom room)
-  )
+  (reset! chatroom room))

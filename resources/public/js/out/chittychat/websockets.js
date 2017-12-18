@@ -44,10 +44,6 @@ throw (new Error("Websocket connection failed!"));
 }
 });
 chittychat.websockets.room_filter_BANG_ = (function chittychat$websockets$room_filter_BANG_(room){
-cljs.core.println.call(null,room);
-
-cljs.core.println.call(null,cljs.core.deref.call(null,chittychat.websockets.chatroom));
-
 return cljs.core.reset_BANG_.call(null,chittychat.websockets.chatroom,room);
 });
 

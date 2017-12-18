@@ -7,7 +7,7 @@
 (defonce room (atom nil))
 
 (defn update-messages! [{:keys [message]}]
-  (swap! messages #(vec (take 10 (conj % message)))))
+  (swap! messages #(vec (take 100 (conj % message)))))
 
 (defn message-list []
   [:ul
@@ -39,6 +39,8 @@
         :on-change #(reset! value (-> % .-target .-value))
         :on-key-down
         #(when (= (.-keyCode %) 13)
+;           (if (not= room @value)
+           (reset! messages nil)
            (reset! room @value)
            (ws/room-filter! @value))}])))
 
@@ -57,13 +59,15 @@
        ;[:p "Nick is now: " @nick]
        [:p "Nickname: " [nick-input nick]]]
       [:div.chatroom
-       [:p "Chatroom: " [room-input]]]
+       [:p "Chat room: " [room-input]]]
       [:div
        [message-input nick]]
      ]
     [:div.messages
      [:h2 "Messages to " @room]
-     [message-list]]
+     [:div.message-scroll
+       [message-list]]
+     ]
   ])))
 
 
