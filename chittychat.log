@@ -1,2 +1,15 @@
 2017-Dec-19 02:38:49 +0200 LM4-KEHA11.local INFO [chittychat.handler] - chittychat is shutting down...
 2017-Dec-19 02:38:49 +0200 LM4-KEHA11.local INFO [chittychat.handler] - shutdown complete!
+2017-Dec-19 02:39:04 +0200 LM4-KEHA11.local INFO [chittychat.handler] - 
+-=[ chittychat started successfully using the development profile ]=-
+2017-Dec-19 02:39:04 +0200 LM4-KEHA11.local INFO [chittychat.core] - server started on port: 3000
+2017-Dec-19 02:49:11 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel open
+2017-Dec-19 02:49:15 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room","aaaaa","~:message","Chittychatter: fasfsdf"]
+2017-Dec-19 02:49:16 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room","aaaaa","~:message","Chittychatter: sdfsdf"]
+2017-Dec-19 02:49:40 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel open
+2017-Dec-19 02:49:52 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room","aaaaa","~:message","kaalimies: asfsdfsdf"]
+2017-Dec-19 02:49:53 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - ["^ ","~:room","aaaaa","~:message","kaalimies: fsdfdsf"]
+2017-Dec-19 02:51:53 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel closed: :going-away
+2017-Dec-19 02:51:54 +0200 LM4-KEHA11.local INFO [chittychat.routes.websockets] - channel closed: :going-away
+2017-Dec-19 02:51:57 +0200 LM4-KEHA11.local INFO [chittychat.handler] - chittychat is shutting down...
+2017-Dec-19 02:51:57 +0200 LM4-KEHA11.local INFO [chittychat.handler] - shutdown complete!
