@@ -43,8 +43,7 @@
              (reset! room @value)
              (ws/room-filter! @value)
              (if (not= previous @value)
-               (do
-                 (reset! messages nil)))))}])))
+               (reset! messages nil))))}])))
 
 (defn nick-input [value]
   [:input {:type "text"
