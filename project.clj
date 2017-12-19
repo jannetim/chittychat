@@ -1,7 +1,7 @@
 (defproject chittychat "0.1.0-SNAPSHOT"
 
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Silly little websocket chat project"
+  :url ""
 
   :dependencies [[org.clojure/clojure "1.7.0-RC1"]
                  [selmer "0.8.2"]
@@ -17,7 +17,7 @@
                  [bouncer "0.3.2"]
                  [prone "0.8.2"]
                  [org.clojure/tools.nrepl "0.2.10"]
-                 
+
                  [org.clojure/clojurescript "0.0-3291" :scope "provided"]
                  [org.clojure/tools.reader "0.9.2"]
                  [reagent "0.5.0"]
@@ -42,12 +42,12 @@
             [lein-environ "1.0.0"]
             [lein-ancient "0.6.5"]
             [lein-cljsbuild "1.0.6"]]
-  
 
-  
-  
+
+
+
   :clean-targets ^{:protect false} ["resources/public/js"]
-  
+
   :cljsbuild
   {:builds
    {:app
@@ -58,8 +58,8 @@
       :optimizations :none
       :output-to "resources/public/js/app.js"
       :pretty-print true}}}}
-  
-  
+
+
   :profiles
   {:uberjar {:omit-source true
              :env {:production true}
@@ -69,8 +69,8 @@
                :builds
                {:app
                 {:source-paths ["env/prod/cljs"]
-                 :compiler {:optimizations :advanced :pretty-print false}}}} 
-             
+                 :compiler {:optimizations :advanced :pretty-print false}}}}
+
              :aot :all}
    :dev {:dependencies [[ring-mock "0.1.5"]
                         [ring/ring-devel "1.3.2"]
@@ -84,14 +84,14 @@
           :cljsbuild
           {:builds
            {:app
-            {:source-paths ["env/dev/cljs"] :compiler {:source-map true}}}} 
-         
+            {:source-paths ["env/dev/cljs"] :compiler {:source-map true}}}}
+
          :figwheel
          {:http-server-root "public"
           :server-port 3449
           :css-dirs ["resources/public/css"]
           :ring-handler chittychat.handler/app}
-         
+
          :repl-options {:init-ns chittychat.core}
          :injections [(require 'pjstadig.humane-test-output)
                       (pjstadig.humane-test-output/activate!)]
