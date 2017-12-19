@@ -2354,3 +2354,269 @@ notifying browser that file changed:  /chittychat/core.js
 [0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.112 seconds.[0m
 notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.104 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.106 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+WARNING: No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or Closure namespace "" at line 76 src-cljs/chittychat/core.cljs
+WARNING: Use of undeclared Var reagent/render-component at line 76 src-cljs/chittychat/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.195 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.106 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (1) passed to reagent.core/render at line 30 src-cljs/chittychat/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.154 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (1) passed to reagent.core/render at line 30 src-cljs/chittychat/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var chittychat.core/message-scroll at line 30 src-cljs/chittychat/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.145 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (1) passed to reagent.core/render at line 30 src-cljs/chittychat/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.139 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.1 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.104 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.103 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.098 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.105 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.103 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (2) passed to cljs.core/complement at line 42 src-cljs/chittychat/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.14 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (2) passed to cljs.core/complement at line 42 src-cljs/chittychat/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.13 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.098 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.094 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.103 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.104 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.101 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.094 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.095 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src-cljs/chittychat/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4591)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4551.invoke (core.clj:2620)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:628)
+    clojure.core$mapcat.doInvoke (core.clj:2658)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1475)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17729.invoke (auto_builder.clj:77)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17762.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17726.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17522.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17528.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17528.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17528.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17531.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17525.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src-cljs/chittychat/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4591)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4551.invoke (core.clj:2620)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:628)
+    clojure.core$mapcat.doInvoke (core.clj:2658)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1475)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17729.invoke (auto_builder.clj:77)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17762.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17726.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17522.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17528.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17528.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17528.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17531.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17525.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.093 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter } on file /Users/jannetim/Documents/clojure/chittychat/src-cljs/chittychat/core.cljs, line 48, column 38
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.095 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.098 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.101 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/jannetim/Documents/clojure/chittychat/src-cljs/chittychat/core.cljs, line 45, column 37
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.097 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.104 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.096 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.096 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.095 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.093 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.098 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.093 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.092 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.1 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.096 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.092 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.101 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.1 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.098 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.097 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.101 seconds.[0m
+notifying browser that file changed:  resources/public/js/app.js
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.102 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.094 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.093 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js
+[0mCompiling "resources/public/js/app.js" from ["src-cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.098 seconds.[0m
+notifying browser that file changed:  /chittychat/core.js

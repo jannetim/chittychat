@@ -11,38 +11,38 @@ if(typeof chittychat.core.room !== 'undefined'){
 } else {
 chittychat.core.room = reagent.core.atom.call(null,null);
 }
-chittychat.core.update_messages_BANG_ = (function chittychat$core$update_messages_BANG_(p__31960){
-var map__31962 = p__31960;
-var map__31962__$1 = ((cljs.core.seq_QMARK_.call(null,map__31962))?cljs.core.apply.call(null,cljs.core.hash_map,map__31962):map__31962);
-var message = cljs.core.get.call(null,map__31962__$1,new cljs.core.Keyword(null,"message","message",-406056002));
-return cljs.core.swap_BANG_.call(null,chittychat.core.messages,((function (map__31962,map__31962__$1,message){
-return (function (p1__31959_SHARP_){
-return cljs.core.vec.call(null,cljs.core.take.call(null,(100),cljs.core.conj.call(null,p1__31959_SHARP_,message)));
-});})(map__31962,map__31962__$1,message))
+chittychat.core.update_messages_BANG_ = (function chittychat$core$update_messages_BANG_(p__33672){
+var map__33674 = p__33672;
+var map__33674__$1 = ((cljs.core.seq_QMARK_.call(null,map__33674))?cljs.core.apply.call(null,cljs.core.hash_map,map__33674):map__33674);
+var message = cljs.core.get.call(null,map__33674__$1,new cljs.core.Keyword(null,"message","message",-406056002));
+return cljs.core.swap_BANG_.call(null,chittychat.core.messages,((function (map__33674,map__33674__$1,message){
+return (function (p1__33671_SHARP_){
+return cljs.core.vec.call(null,cljs.core.take.call(null,(100),cljs.core.conj.call(null,p1__33671_SHARP_,message)));
+});})(map__33674,map__33674__$1,message))
 );
 });
 chittychat.core.message_list = (function chittychat$core$message_list(){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ul","ul",-1349521403),(function (){var iter__25341__auto__ = (function chittychat$core$message_list_$_iter__31971(s__31972){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ul","ul",-1349521403),(function (){var iter__25341__auto__ = (function chittychat$core$message_list_$_iter__33683(s__33684){
 return (new cljs.core.LazySeq(null,(function (){
-var s__31972__$1 = s__31972;
+var s__33684__$1 = s__33684;
 while(true){
-var temp__4423__auto__ = cljs.core.seq.call(null,s__31972__$1);
+var temp__4423__auto__ = cljs.core.seq.call(null,s__33684__$1);
 if(temp__4423__auto__){
-var s__31972__$2 = temp__4423__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,s__31972__$2)){
-var c__25339__auto__ = cljs.core.chunk_first.call(null,s__31972__$2);
+var s__33684__$2 = temp__4423__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,s__33684__$2)){
+var c__25339__auto__ = cljs.core.chunk_first.call(null,s__33684__$2);
 var size__25340__auto__ = cljs.core.count.call(null,c__25339__auto__);
-var b__31974 = cljs.core.chunk_buffer.call(null,size__25340__auto__);
-if((function (){var i__31973 = (0);
+var b__33686 = cljs.core.chunk_buffer.call(null,size__25340__auto__);
+if((function (){var i__33685 = (0);
 while(true){
-if((i__31973 < size__25340__auto__)){
-var vec__31977 = cljs.core._nth.call(null,c__25339__auto__,i__31973);
-var i = cljs.core.nth.call(null,vec__31977,(0),null);
-var message = cljs.core.nth.call(null,vec__31977,(1),null);
-cljs.core.chunk_append.call(null,b__31974,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),message], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),i], null)));
+if((i__33685 < size__25340__auto__)){
+var vec__33689 = cljs.core._nth.call(null,c__25339__auto__,i__33685);
+var i = cljs.core.nth.call(null,vec__33689,(0),null);
+var message = cljs.core.nth.call(null,vec__33689,(1),null);
+cljs.core.chunk_append.call(null,b__33686,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),message], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),i], null)));
 
-var G__31979 = (i__31973 + (1));
-i__31973 = G__31979;
+var G__33691 = (i__33685 + (1));
+i__33685 = G__33691;
 continue;
 } else {
 return true;
@@ -50,15 +50,15 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__31974),chittychat$core$message_list_$_iter__31971.call(null,cljs.core.chunk_rest.call(null,s__31972__$2)));
+return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__33686),chittychat$core$message_list_$_iter__33683.call(null,cljs.core.chunk_rest.call(null,s__33684__$2)));
 } else {
-return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__31974),null);
+return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__33686),null);
 }
 } else {
-var vec__31978 = cljs.core.first.call(null,s__31972__$2);
-var i = cljs.core.nth.call(null,vec__31978,(0),null);
-var message = cljs.core.nth.call(null,vec__31978,(1),null);
-return cljs.core.cons.call(null,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),message], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),i], null)),chittychat$core$message_list_$_iter__31971.call(null,cljs.core.rest.call(null,s__31972__$2)));
+var vec__33690 = cljs.core.first.call(null,s__33684__$2);
+var i = cljs.core.nth.call(null,vec__33690,(0),null);
+var message = cljs.core.nth.call(null,vec__33690,(1),null);
+return cljs.core.cons.call(null,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),message], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),i], null)),chittychat$core$message_list_$_iter__33683.call(null,cljs.core.rest.call(null,s__33684__$2)));
 }
 } else {
 return null;
@@ -75,12 +75,12 @@ var value = reagent.core.atom.call(null,null);
 return ((function (value){
 return (function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input.form-control","input.form-control",-1123419636),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"text","text",-1790561697),new cljs.core.Keyword(null,"placeholder","placeholder",-104873083),"Type message and press enter",new cljs.core.Keyword(null,"value","value",305978217),cljs.core.deref.call(null,value),new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (value){
-return (function (p1__31980_SHARP_){
-return cljs.core.reset_BANG_.call(null,value,p1__31980_SHARP_.target.value);
+return (function (p1__33692_SHARP_){
+return cljs.core.reset_BANG_.call(null,value,p1__33692_SHARP_.target.value);
 });})(value))
 ,new cljs.core.Keyword(null,"on-key-down","on-key-down",-1374733765),((function (value){
-return (function (p1__31981_SHARP_){
-if(cljs.core._EQ_.call(null,p1__31981_SHARP_.keyCode,(13))){
+return (function (p1__33693_SHARP_){
+if(cljs.core._EQ_.call(null,p1__33693_SHARP_.keyCode,(13))){
 chittychat.websockets.send_transit_msg_BANG_.call(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"room","room",536484922),cljs.core.deref.call(null,chittychat.core.room),new cljs.core.Keyword(null,"message","message",-406056002),[cljs.core.str(cljs.core.deref.call(null,nick)),cljs.core.str(": "),cljs.core.str(cljs.core.deref.call(null,value))].join('')], null));
 
 return cljs.core.reset_BANG_.call(null,value,null);
@@ -97,17 +97,22 @@ var value = reagent.core.atom.call(null,null);
 return ((function (value){
 return (function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input.form-control","input.form-control",-1123419636),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"text","text",-1790561697),new cljs.core.Keyword(null,"placeholder","placeholder",-104873083),"Type room and press enter",new cljs.core.Keyword(null,"value","value",305978217),cljs.core.deref.call(null,value),new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (value){
-return (function (p1__31982_SHARP_){
-return cljs.core.reset_BANG_.call(null,value,p1__31982_SHARP_.target.value);
+return (function (p1__33694_SHARP_){
+return cljs.core.reset_BANG_.call(null,value,p1__33694_SHARP_.target.value);
 });})(value))
 ,new cljs.core.Keyword(null,"on-key-down","on-key-down",-1374733765),((function (value){
-return (function (p1__31983_SHARP_){
-if(cljs.core._EQ_.call(null,p1__31983_SHARP_.keyCode,(13))){
-cljs.core.reset_BANG_.call(null,chittychat.core.messages,null);
-
+return (function (p1__33695_SHARP_){
+if(cljs.core._EQ_.call(null,p1__33695_SHARP_.keyCode,(13))){
+var previous = cljs.core.deref.call(null,chittychat.core.room);
 cljs.core.reset_BANG_.call(null,chittychat.core.room,cljs.core.deref.call(null,value));
 
-return chittychat.websockets.room_filter_BANG_.call(null,cljs.core.deref.call(null,value));
+chittychat.websockets.room_filter_BANG_.call(null,cljs.core.deref.call(null,value));
+
+if(cljs.core.not_EQ_.call(null,previous,cljs.core.deref.call(null,value))){
+return cljs.core.reset_BANG_.call(null,chittychat.core.messages,null);
+} else {
+return null;
+}
 } else {
 return null;
 }
@@ -117,8 +122,8 @@ return null;
 ;})(value))
 });
 chittychat.core.nick_input = (function chittychat$core$nick_input(value){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),"text",new cljs.core.Keyword(null,"value","value",305978217),cljs.core.deref.call(null,value),new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__31984_SHARP_){
-return cljs.core.reset_BANG_.call(null,value,p1__31984_SHARP_.target.value);
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),"text",new cljs.core.Keyword(null,"value","value",305978217),cljs.core.deref.call(null,value),new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__33696_SHARP_){
+return cljs.core.reset_BANG_.call(null,value,p1__33696_SHARP_.target.value);
 })], null)], null);
 });
 chittychat.core.chat_page = (function chittychat$core$chat_page(){
@@ -130,7 +135,7 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 ;})(nick))
 });
 chittychat.core.mount_components = (function chittychat$core$mount_components(){
-return reagent.core.render_component.call(null,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Var(function(){return chittychat.core.chat_page;},new cljs.core.Symbol("chittychat.core","chat-page","chittychat.core/chat-page",-1617192008,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"chittychat.core","chittychat.core",1952171759,null),new cljs.core.Symbol(null,"chat-page","chat-page",-46573320,null),"src-cljs/chittychat/core.cljs",16,1,52,52,cljs.core.list(cljs.core.PersistentVector.EMPTY),null,(cljs.core.truth_(chittychat.core.chat_page)?chittychat.core.chat_page.cljs$lang$test:null)]))], null),document.getElementById("app"));
+return reagent.core.render_component.call(null,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Var(function(){return chittychat.core.chat_page;},new cljs.core.Symbol("chittychat.core","chat-page","chittychat.core/chat-page",-1617192008,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"chittychat.core","chittychat.core",1952171759,null),new cljs.core.Symbol(null,"chat-page","chat-page",-46573320,null),"src-cljs/chittychat/core.cljs",16,1,54,54,cljs.core.list(cljs.core.PersistentVector.EMPTY),null,(cljs.core.truth_(chittychat.core.chat_page)?chittychat.core.chat_page.cljs$lang$test:null)]))], null),document.getElementById("app"));
 });
 chittychat.core.init_BANG_ = (function chittychat$core$init_BANG_(){
 chittychat.websockets.make_websocket_BANG_.call(null,[cljs.core.str("ws://"),cljs.core.str(location.host),cljs.core.str("/ws")].join(''),chittychat.core.update_messages_BANG_);

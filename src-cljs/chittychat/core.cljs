@@ -1,5 +1,5 @@
 (ns chittychat.core
-  (:require [reagent.core :as reagent :refer [atom]]
+  (:require [reagent.core :as r :refer [atom]]
             [chittychat.websockets :as ws]))
 
 (defonce messages (atom []))
@@ -39,10 +39,12 @@
         :on-change #(reset! value (-> % .-target .-value))
         :on-key-down
         #(when (= (.-keyCode %) 13)
-;           (if (not= room @value)
-           (reset! messages nil)
-           (reset! room @value)
-           (ws/room-filter! @value))}])))
+           (let [previous @room]
+             (reset! room @value)
+             (ws/room-filter! @value)
+             (if (not= previous @value)
+               (do
+                 (reset! messages nil)))))}])))
 
 (defn nick-input [value]
   [:input {:type "text"
@@ -72,7 +74,7 @@
 
 
 (defn mount-components []
-  (reagent/render-component [#'chat-page] (.getElementById js/document "app")))
+  (r/render-component [#'chat-page] (.getElementById js/document "app")))
 
 (defn init! []
   (ws/make-websocket! (str "ws://" (.-host js/location) "/ws") update-messages!)
