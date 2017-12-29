@@ -10,5 +10,6 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .nrepl-port
-.chittychat.log
-.figwheel_server.log
+chittychat.log
+figwheel_server.log
+*.log

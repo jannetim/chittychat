@@ -11,8 +11,7 @@
   (fn [msg]
     (if (= (get-in(->> msg .-data (t/read json-reader)) [:room]) @chatroom)
       (update-fn
-        (->> msg .-data (t/read json-reader))
-        ))))
+        (->> msg .-data (t/read json-reader))))))
 
 (defn send-transit-msg!
   [msg]
